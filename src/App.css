@@ -1,0 +1,34 @@
+/* Basic Styles */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #333;
+  direction: ltr; /* Default direction */
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* RTL Support */
+body[dir='rtl'] .App {
+  direction: rtl;
+}
+
+
+/* Utility Classes */
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+
+/* Ensure image responsiveness */
+img {
+  max-width: 100%;
+  height: auto;
+}

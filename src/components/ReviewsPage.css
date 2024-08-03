@@ -1,0 +1,107 @@
+/* Ensuring Poppins font is imported */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff; /* Optional: Sets a background color for the entire page */
+}
+
+.reviews {
+  padding: 50px 20px;
+  background: #D9D9D9;
+  text-align: center;
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.reviews h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.reviews__list {
+  display: flex !important;
+  gap: 20px !important; /* Space between review items */
+  flex-wrap: nowrap !important; /* No wrapping */
+  overflow-x: auto !important; /* Enable horizontal scrolling */
+  padding-bottom: 10px !important; /* Extra space for scroll bar */
+}
+
+.review-item {
+  background: #fff;
+  padding: 30px; /* Reduced padding */
+  border-radius: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-width: 300px; /* Minimum width for each review box */
+  box-sizing: border-box;
+  text-align: left; /* Align text to the left */
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between image+name and rating */
+  margin-bottom: 10px;
+}
+
+.reviewer-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.reviewer-details {
+  flex-grow: 1; /* Take up remaining space in the header */
+}
+
+.review-item p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.review-item .reviewer {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.rating {
+  font-size: 20px;
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+@media (max-width: 768px) {
+  .reviews {
+    padding: 40px 15px;
+  }
+
+  .reviews h2 {
+    font-size: 28px;
+  }
+
+  .review-item {
+    width: 45%; /* Adjust width for smaller screens */
+    margin-bottom: 20px; /* Add margin to create space between stacked items */
+  }
+}
+
+@media (max-width: 480px) {
+  .review-item {
+    width: 100%; /* Full width on very small screens */
+  }
+
+  .reviews h2 {
+    font-size: 24px;
+  }
+
+  .review-item p {
+    font-size: 14px;
+  }
+
+  .rating {
+    font-size: 18px;
+  }
+}

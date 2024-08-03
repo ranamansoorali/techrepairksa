@@ -1,0 +1,143 @@
+/* Ensuring Poppins font is imported */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff; /* Optional: Sets a background color for the entire page */
+}
+
+.contact-form {
+  padding: 50px 250px;
+  background: #ffffff;
+  text-align: left; /* Changed text alignment */
+}
+
+.contact-form__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  gap: 10px; /* Reduced space between text and image */
+}
+
+.contact-form h2 {
+  font-size: 36px;
+  margin-bottom: 10px; /* Reduced bottom margin */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  gap: 10px;
+}
+
+.contact-form label {
+  display: flex; /* Aligns the checkbox and text in one line */
+  align-items: center; /* Vertically centers the checkbox and text */
+  gap: 10px; /* Space between checkbox and text */
+  margin-bottom: 10px; /* Adjust margin as needed */
+  white-space: nowrap; /* Prevents the text from wrapping to the next line */
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-form input[type="checkbox"] {
+  margin-right: 10px; /* Space between checkbox and text if not using gap in the label */
+}
+
+/* Optional: Ensure the container for the form is wide enough */
+.contact-form form {
+  max-width: 100%; /* Ensure the form width adjusts with the screen */
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  border: 0.5px solid #ccc;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  resize: none;
+}
+
+.contact-form button {
+  padding: 10px 150px;
+  background-color: #0022FF;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-form__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  gap: 10px;
+}
+
+.contact-form__image {
+  max-width: 45%; /* Slightly reduce max-width to bring elements closer */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form__image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Optional: rounded corners */
+}
+
+@media (max-width: 768px) {
+  .contact-form {
+    padding: 40px 15px;
+  }
+
+  .contact-form__container {
+    flex-direction: column;
+    text-align: left; /* Ensure container text is aligned left */
+  }
+
+  .contact-form h2 {
+    font-size: 28px;
+    text-align: left; /* Ensure header text is aligned left */
+  }
+
+  .contact-form__text {
+    width: 100%;
+    text-align: left; /* Ensure form text is aligned left */
+  }
+
+  .contact-form form {
+    align-items: flex-start; /* Ensure form fields align to the start */
+  }
+
+  .contact-form__footer {
+    align-items: flex-start; /* Ensure footer aligns to the start */
+  }
+
+  .contact-form__image {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form h2 {
+    font-size: 24px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    max-width: 100%;
+  }
+
+  .contact-form button {
+    width: 100%;
+  }
+}

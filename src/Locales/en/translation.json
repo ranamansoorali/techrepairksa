@@ -1,0 +1,96 @@
+{
+  "navbar": {
+    "title": "Riyadh Repair",
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "services": "Services",
+    "recentWork": "Recent Work",
+    "bookNow": "Book Now"
+  },
+  "heroSection": {
+    "title": "Your Repairing Partner",
+    "description": "Looking for a repair?\nNo worries, we are here for you..."
+  },
+  "serviceSection": {
+    "washingMachineTitle": "Washing Machine",
+    "washingMachineDescription": "Diagnosis, troubleshooting, motor repairs, water drainage issues, control panel repairs, and regular maintenance.",
+    "pizzaOvenTitle": "Pizza Oven",
+    "pizzaOvenDescription": "We do every kind of \nservice including \nrepair and much more."
+  },
+  "reviews": {
+    "title": "Reviews",
+    "reviewList": [
+      {
+        "name": "Amina Shaikh",
+        "text": "I am extremely satisfied with the service. They were very knowledgeable and friendly. Will definitely use their service again.",
+        "rating": 5
+      },
+      {
+        "name": "Salim Ali Gulab",
+        "text": "Quick and professional! The technician arrived on time and resolved the issue efficiently. Excellent customer service.",
+        "rating": 4
+      },
+      {
+        "name": "John Doe",
+        "text": "Amazing service! My washing machine was fixed in no time and it works like new now. Highly recommend Riyadh Repair!",
+        "rating": 5
+      },
+      {
+        "name": "Ahmed Hassan",
+        "text": "I am extremely satisfied with the service. They were very knowledgeable and friendly. Will definitely use their service again.",
+        "rating": 5
+      },
+      {
+        "name": "Fatima Zahra",
+        "text": "Quick and professional! The technician arrived on time and resolved the issue efficiently. Excellent customer service.",
+        "rating": 4
+      },
+      {
+        "name": "Mohammad Ali",
+        "text": "Amazing service! My washing machine was fixed in no time and it works like new now. Highly recommend Riyadh Repair!",
+        "rating": 5
+      }
+    ]
+  },
+  "contactForm": {
+    "title": "Get in touch!",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "checkbox": "I agree to Privacy Policy and Terms of Use",
+    "submitButton": "Contact with us now"
+  },
+  "footer": {
+    "title": "Riyadh Repair",
+    "product": "Product",
+    "contact": "Contact",
+    "callNow": "Call Right Now",
+    "copyright": "© 2022 Riyadh Repair",
+    "social": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram"
+    }
+  },
+  "aboutSection": {
+    "title": "What We Are?",
+    "description": "We are the best repairing service provider in your town!!!!",
+    "title2": "About Us",
+    "longDesc": "At Riyadh Repair, we are dedicated to offering top-notch repair services for washing machines and other household appliances. Our experienced technicians ensure your appliances are back in working order quickly and efficiently. Customer satisfaction is our priority, and we pride ourselves on our professionalism and reliability."
+  },
+  "contactSection": {
+    "title": "Book a Date",
+    "description": "Book a date to select a time for your gadget repair. We will be here......",
+    "title2": "How it Works...",
+    "desc1": "Drop us a call on this number +966545473163 or send a message on WhatsApp.",
+    "desc2": "Tell us the issue and the availability date of your product, and we will come to you.",
+    "desc3": "You got it right!!!! You will get your desired work done in a while on your selected date."
+  },
+  "reviewsSection": {
+    "desc1": "+966545473163 Drop a call and get your booking right now!!!!!!!"
+  },
+  "recentSection": {
+    "title": "Recent Works"
+  }
+}
